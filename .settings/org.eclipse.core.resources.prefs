@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/com/abc/advice/AccessArgAdviceTest.java=UTF-8
+encoding//src/com/abc/advice/AdviceTest.java=UTF-8
+encoding//src/com/abc/advice/AfterAdviceTest.java=UTF-8
+encoding//src/com/abc/advice/AfterReturningAdviceTest.java=UTF-8
+encoding//src/com/abc/advice/AroundAdviceTest.java=UTF-8
+encoding//src/com/abc/advice/BeforeAdviceTest.java=UTF-8
+encoding//src/com/abc/main/AOPTest.java=UTF-8
+encoding//src/com/abc/service/AdviceManager.java=UTF-8
