@@ -13,13 +13,13 @@ public class AOPTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         AdviceManager manager = context.getBean(AdviceManager.class);
         manager.beforeAdvice();
-        manager.afterReturning();
+        //manager.afterReturning();
         //manager.afterThrowing();
-        manager.afterAdvice();
-        String result = manager.aroundAdvice("aa", 1, "bb");
-        System.out.println("返回值：" + result);
-        result = manager.manyAdvices("aa", "bb");
-        System.out.println("Test方法中调用切点方法的返回值：" + result);
-        manager.accessAdvice(new Date(), "test");
+        //manager.afterAdvice();
+//        String result = manager.aroundAdvice("aa", 1, "bb");
+//        System.out.println("返回值：" + result);
+//        result = manager.manyAdvices("aa", "bb");
+//        System.out.println("Test方法中调用切点方法的返回值：" + result);
+        //manager.accessAdvice(new Date(), "test");
     }
 }
